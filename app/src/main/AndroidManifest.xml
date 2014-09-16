@@ -18,13 +18,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.yahoo.pmathew.imageviewer.activities.ImageDisplayActivity"
+        <activity
+            android:name=".activities.ImageDisplayActivity"
             android:label="@string/title_activity_image_display"
-            android:parentActivityName="com.yahoo.pmathew.imageviewer.activities.ImageViewerHomeActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:parentActivityName=".activities.ImageViewerHomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.yahoo.pmathew.imageviewer.activities.ImageViewerHomeActivity" />
+        </activity>
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/title_activity_settings"
+             >
+
         </activity>
     </application>
 
 </manifest>
-

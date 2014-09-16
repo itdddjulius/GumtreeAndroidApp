@@ -1,5 +1,5 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.yahoo.pmathew.imageviewer.activities.ImageDisplayActivity" >
+    tools:context="com.yahoo.pmathew.imageviewer.activities.SettingsActivity" >
 
 </menu>
